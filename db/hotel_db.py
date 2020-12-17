@@ -30,12 +30,13 @@ database_hotel={
 
 def get_Hotels():
     lista_hoteles=[]
-    for hotel in database_hotel:
+    for hotel in database_hotel.keys(): 
+        # Agregué el .keys(), cambia algo?
         lista_hoteles.append(database_hotel[hotel])
     return lista_hoteles
 
-def get_Hotel_email(email):
-    if email in database_hotel:
+def get_Hotel_email(email: str):
+    if email in database_hotel.keys():
         return database_hotel[email]
     else:
         return None

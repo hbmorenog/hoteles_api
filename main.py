@@ -31,6 +31,18 @@ async def auth_hotel(hotel_in: hotel_models.HotelIn): #email query param
         return {"Autenticado": False}
 
     return {"Autenticado": True}
+
+@api.get("/hotel/profile/{email}")
+async def get_profile(email: str):
+    
+    hotel_in_db = hotel_db.get_Hotel_email(email)
+
+    if hotel_in_db == None:
+        raise HTTPException(status_code=404, detail="El usuario no existe")
+    
+    hotel_out = hotel_models.HotelOut(**hotel_in_db.dict())
+
+    return  hotel_out
     
 @api.post("/hotel/agregar")
 async def add_hotel(hotel_add: hotel_models.HotelAdd):
