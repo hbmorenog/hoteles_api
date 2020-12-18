@@ -6,6 +6,7 @@ class HotelInDB(BaseModel):
     password: str
     ubication: str
     name: str
+    image: str
     price: int 
 
 
@@ -14,16 +15,19 @@ database_hotel={
                     password="123abc",
                     ubication="Cartagena",
                     name="Decameron",
+                    image="https://picsum.photos/250/250/?image=54",
                     price=250000),
     "hilton@gmail.com": HotelInDB(id=2,email="hilton@gmail.com",
                     password="root",
                     ubication="Santa Marta",
                     name="Hilton",
+                    image="https://picsum.photos/250/250/?image=56",
                     price=300000),
     "calypso@gmail.com": HotelInDB(id=3,email="calypso@gmail.com",
                     password="admin123",
                     ubication="San Andres",
                     name="Calypso Beach",
+                    image="https://picsum.photos/250/250/?image=65",
                     price=280000)
 
 }
