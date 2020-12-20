@@ -17,7 +17,7 @@ database_hotel={
                     ubication="Cartagena",
                     name="Decameron",
                     image="https://picsum.photos/250/250/?image=54",
-                    price=250000
+                    price=250000,
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     ),
                     
@@ -26,7 +26,7 @@ database_hotel={
                     ubication="Santa Marta",
                     name="Hilton",
                     image="https://picsum.photos/250/250/?image=56",
-                    price=300000
+                    price=300000,
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     ),
     "calypso@gmail.com": HotelInDB(id=3,email="calypso@gmail.com",
@@ -34,7 +34,7 @@ database_hotel={
                     ubication="San Andres",
                     name="Calypso Beach",
                     image="https://picsum.photos/250/250/?image=65",
-                    price=280000
+                    price=280000,
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     )
 
