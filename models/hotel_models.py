@@ -7,6 +7,7 @@ class HotelIn(BaseModel):
 class HotelOut(BaseModel):
     email: str
     ubication: str
+    image: str
     name: str
     price: int
 
@@ -15,5 +16,6 @@ class HotelAdd(BaseModel):
     email: str
     password: str
     ubication: str
-    username: str
+    image: str
+    name: str
     price: int 
